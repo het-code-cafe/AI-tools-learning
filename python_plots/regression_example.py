@@ -16,11 +16,11 @@ plt.figure(figsize=(10, 6))
 plt.plot(x, y, label="Normal Distribution", color="#459578")
 
 # Shade the regions under the curve
-plt.fill_between(x, y, where=(x <= mean - 2*std_dev), color='#37EDAB', alpha=0.4)
+plt.fill_between(x, y, where=(x <= mean - 2*std_dev), color='#459578', alpha=0.4)
 plt.fill_between(x, y, where=((x > mean - 2*std_dev) & (x <= mean - std_dev)), color='#FED53C', alpha=0.4)
-plt.fill_between(x, y, where=((x > mean - std_dev) & (x < mean + std_dev)), color='#37EDAB', alpha=0.4)
+plt.fill_between(x, y, where=((x > mean - std_dev) & (x < mean + std_dev)), color='#459578', alpha=0.4)
 plt.fill_between(x, y, where=((x >= mean + std_dev) & (x < mean + 2*std_dev)), color='#FED53C', alpha=0.4)
-plt.fill_between(x, y, where=(x >= mean + 2*std_dev), color='#37EDAB', alpha=0.4)
+plt.fill_between(x, y, where=(x >= mean + 2*std_dev), color='#459578', alpha=0.4)
 
 # Add labels for the IQ scores and standard deviations
 plt.axvline(mean, color='#113428', linestyle='dashed', linewidth=1)
