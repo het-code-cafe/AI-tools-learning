@@ -1,27 +1,30 @@
-import matplotlib.pyplot as plt
-import numpy as np
+"""
+main.py
 
-import matplotlib.animation as animation
-
-fig, ax = plt.subplots()
-ax.set_xlim([0, 10])
-
-scat = ax.scatter(1, 0)
-x = np.linspace(0, 10)
+Run all examples from the CCPlots library to make my life a little easier.
+"""
+import CCPlots
 
 
-def animate(i):
-    scat.set_offsets((x[i], 0))
-    return scat,
+def all_plots():
+    classes = [cls for name, cls in CCPlots.__dict__.items()
+               if isinstance(cls, type) and cls.__module__.startswith('CCPlots')]
+
+    # Create or save plots
+    for cls in classes:
+        instance = cls()
+        instance.main()
 
 
-ani = animation.FuncAnimation(fig, animate, repeat=True,
-                              frames=len(x) - 1, interval=50)
+def plot_scratch():
+    """ Scratchpad for whatever needs re-generation I suppose """
+    from CCPlots.LinearRegressionExample import LinearRegressionExample
+    LinearRegressionExample().main()
 
-# To save the animation using Pillow as a gif
-writer = animation.PillowWriter(fps=15,
-                                metadata=dict(artist='Me'),
-                                bitrate=1800)
-ani.save('scatter.gif', writer=writer)
 
-plt.show()
+if __name__ == "__main__":
+    # This takes a while, comment out at your own risk
+    #all_plots()
+
+    # Plot only what is needed
+    plot_scratch()
