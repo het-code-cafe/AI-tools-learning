@@ -56,8 +56,12 @@ class KMeansExample:
         self.scatter = ax.scatter(self.X[:, 0], self.X[:, 1], s=30, c='grey', edgecolor='k')
         self.centers = ax.scatter([], [], s=100, marker='X')  # Centers will use darker versions of cluster colors
 
+        ax.set_title("KMeans Clustering: Determining Species", fontsize=16)
+        ax.set_xlabel("Height of a penguin", fontsize=14)
+        ax.set_ylabel("Weight of a penguin", fontsize=14)
+
         # More frames and a smaller interval to show the process better
-        ani = FuncAnimation(fig, self.update, frames=30, init_func=self.init_func, interval=500, repeat=False)
+        ani = FuncAnimation(fig, self.update, frames=30, init_func=self.init_func, interval=10, repeat=False)
         ani.save(OUTPUT_PATH + "kmeans_animation.gif", writer='pillow')
 
 
