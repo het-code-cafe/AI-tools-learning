@@ -8,12 +8,18 @@ import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.ticker as ticker
 
-from .config import OUTPUT_PATH
+from .config import OUTPUT_PATH, COLOR_PALETTE
 
 
 class RegressionExample:
 
+    # Configure the colours for the plot
+    dark_green = COLOR_PALETTE['base_colors']['dark_green']
+    green = COLOR_PALETTE['base_colors']['medium_green']
+    yellow = COLOR_PALETTE['base_colors']['bright_yellow']
+
     def main(self):
+
         # Generate data for the normal distribution curve
         mean = 100
         std_dev = 15
@@ -22,21 +28,21 @@ class RegressionExample:
 
         # Plot the normal distribution
         plt.figure(figsize=(10, 6))
-        plt.plot(x, y, label="Normal Distribution", color="#459578")
+        plt.plot(x, y, label="Normal Distribution", color=COLOR_PALETTE['base_colors']['medium_green'])
 
         # Shade the regions under the curve
-        plt.fill_between(x, y, where=(x <= mean - 2*std_dev), color='#459578', alpha=0.4)
-        plt.fill_between(x, y, where=((x > mean - 2*std_dev) & (x <= mean - std_dev)), color='#FED53C', alpha=0.4)
-        plt.fill_between(x, y, where=((x > mean - std_dev) & (x < mean + std_dev)), color='#459578', alpha=0.4)
-        plt.fill_between(x, y, where=((x >= mean + std_dev) & (x < mean + 2*std_dev)), color='#FED53C', alpha=0.4)
-        plt.fill_between(x, y, where=(x >= mean + 2*std_dev), color='#459578', alpha=0.4)
+        plt.fill_between(x, y, where=(x <= mean - 2*std_dev), color=self.green, alpha=0.4)
+        plt.fill_between(x, y, where=((x > mean - 2*std_dev) & (x <= mean - std_dev)), color=self.yellow, alpha=0.4)
+        plt.fill_between(x, y, where=((x > mean - std_dev) & (x < mean + std_dev)), color=self.green, alpha=0.4)
+        plt.fill_between(x, y, where=((x >= mean + std_dev) & (x < mean + 2*std_dev)), color=self.yellow, alpha=0.4)
+        plt.fill_between(x, y, where=(x >= mean + 2*std_dev), color=self.green, alpha=0.4)
 
         # Add labels for the IQ scores and standard deviations
-        plt.axvline(mean, color='#113428', linestyle='dashed', linewidth=1)
-        plt.axvline(mean - std_dev, color='#113428', linestyle='dashed', linewidth=1)
-        plt.axvline(mean + std_dev, color='#113428', linestyle='dashed', linewidth=1)
-        plt.axvline(mean - 2*std_dev, color='#113428', linestyle='dashed', linewidth=1)
-        plt.axvline(mean + 2*std_dev, color='#113428', linestyle='dashed', linewidth=1)
+        plt.axvline(mean, color=self.dark_green, linestyle='dashed', linewidth=1)
+        plt.axvline(mean - std_dev, color=self.dark_green, linestyle='dashed', linewidth=1)
+        plt.axvline(mean + std_dev, color=self.dark_green, linestyle='dashed', linewidth=1)
+        plt.axvline(mean - 2*std_dev, color=self.dark_green, linestyle='dashed', linewidth=1)
+        plt.axvline(mean + 2*std_dev, color=self.dark_green, linestyle='dashed', linewidth=1)
 
         plt.text(mean, max(y)*0.9, '100', ha='center', color='#113428', fontsize=12)
         plt.text(mean - std_dev, max(y)*0.9, '85', ha='center', color='#113428', fontsize=12)

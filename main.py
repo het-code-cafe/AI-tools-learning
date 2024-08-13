@@ -21,6 +21,9 @@ def plot_scratch():
     from CCPlots.LinearRegressionExample import LinearRegressionExample
     LinearRegressionExample().main()
 
+    from CCPlots.KMeansExample import KMeansExample
+    KMeansExample().main()
+
 
 if __name__ == "__main__":
     # This takes a while, comment out at your own risk

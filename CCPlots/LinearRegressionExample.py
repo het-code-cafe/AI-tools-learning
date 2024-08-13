@@ -11,10 +11,15 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 from sklearn.linear_model import LinearRegression
 
-from .config import THEME, OUTPUT_PATH
+from .config import COLOR_PALETTE, OUTPUT_PATH
 
 
 class LinearRegressionExample:
+
+    # Set colours for the plot
+    green = COLOR_PALETTE['base_colors']['medium_green']
+    mint = COLOR_PALETTE['accent_colors']['mint_green']
+
     def main(self):
         # Generate a simple dataset for linear regression (House Size vs. Price)
         np.random.seed(42)
@@ -35,10 +40,10 @@ class LinearRegressionExample:
         ax.set_ylabel("Price ($)", fontsize=14)
 
         # Scatter plot of the data points
-        scatter = ax.scatter(house_sizes, prices, color='#ACD1AF')
+        scatter = ax.scatter(house_sizes, prices, color=self.mint)
 
         # Initialize the regression line plot
-        line, = ax.plot([], [], color='#459578', linewidth=2)
+        line, = ax.plot([], [], color=self.green, linewidth=2)
 
         # Function to initialize the animation
         def init():
