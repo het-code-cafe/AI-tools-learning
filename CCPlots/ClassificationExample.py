@@ -12,7 +12,7 @@ from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 import matplotlib.pyplot as plt
 import numpy as np
 
-from .config import THEME, OUTPUT_PATH
+from .config import THEME, COLOR_PALETTE, OUTPUT_PATH
 
 
 class ClassificationExample:
@@ -49,7 +49,7 @@ class ClassificationExample:
         Z = Z.reshape(xx.shape)
 
         plt.contourf(xx, yy, Z, alpha=0.4, cmap=THEME)
-        plt.scatter(X[:, 0], X[:, 1], c=y, cmap=THEME, edgecolor='k', s=100)
+        plt.scatter(X[:, 0], X[:, 1], c=y, cmap=THEME, edgecolor=COLOR_PALETTE['base_colors']['dark_green'], s=100)
 
         plt.title("Classification Example with Decision Boundary", fontsize=16)
         plt.xlabel("Age", fontsize=14)
