@@ -36,10 +36,13 @@ def plot_scratch():
 #    from CCPlots.LogisticRegressionExample import LogisticRegressionExample
 #    LogisticRegressionExample().main()
 
-    from CCPlots.MSEExample import MSEExample
-    from CCPlots.MSEZoomExample import MSEZoomExample
-    MSEExample().main()
-    MSEZoomExample().main()
+#    from CCPlots.MSEExample import MSEExample
+#    from CCPlots.MSEZoomExample import MSEZoomExample
+#    MSEExample().main()
+#    MSEZoomExample().main()
+
+    from CCPlots.NeuralNetworkGrowthExample import NeuralNetworkGrowthExample
+    NeuralNetworkGrowthExample().main()
 
 
 if __name__ == "__main__":
