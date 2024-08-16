@@ -64,6 +64,9 @@ class KMeansExample:
         ani = FuncAnimation(fig, self.update, frames=30, init_func=self.init_func, interval=10, repeat=False)
         ani.save(OUTPUT_PATH + "kmeans_animation.gif", writer='pillow')
 
+        # Also save the last frame for non-animated use
+        fig.savefig(OUTPUT_PATH + "kmeans_clustering.png")
+
 
 if __name__ == "__main__":
     KMeansExample().main()

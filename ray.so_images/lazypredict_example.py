@@ -1,4 +1,4 @@
-https://pypi.org/project/lazypredict/
+# https://pypi.org/project/lazypredict/
 
 from lazypredict.Supervised import LazyClassifier
 from sklearn.datasets import load_breast_cancer
@@ -15,7 +15,7 @@ models,predictions = clf.fit(X_train, X_test, y_train, y_test)
 
 print(models)
 
-
+"""
 | Model                          |   Accuracy |   Balanced Accuracy |   ROC AUC |   F1 Score |   Time Taken |
 |:-------------------------------|-----------:|--------------------:|----------:|-----------:|-------------:|
 | LinearSVC                      |   0.989474 |            0.987544 |  0.987544 |   0.989462 |    0.0150008 |
@@ -48,8 +48,9 @@ print(models)
 | ExtraTreeClassifier            |   0.922807 |            0.912168 |  0.912168 |   0.922462 |    0.0109999 |
 | CheckingClassifier             |   0.361404 |            0.5      |  0.5      |   0.191879 |    0.0170043 |
 | DummyClassifier                |   0.512281 |            0.489598 |  0.489598 |   0.518924 |    0.0119965 |
+"""
 
-from lazypredict.Supervised import LazyRegressor
+from lazypredict_example.Supervised import LazyRegressor
 from sklearn import datasets
 from sklearn.utils import shuffle
 import numpy as np
@@ -68,7 +69,7 @@ models, predictions = reg.fit(X_train, X_test, y_train, y_test)
 
 print(models)
 
-
+"""
 | Model                         | Adjusted R-Squared | R-Squared |  RMSE | Time Taken |
 |:------------------------------|-------------------:|----------:|------:|-----------:|
 | SVR                           |               0.83 |      0.88 |  2.62 |       0.01 |
@@ -113,3 +114,4 @@ print(models)
 | DummyRegressor                |              -0.38 |     -0.02 |  7.56 |       0.01 |
 | LassoLars                     |              -0.38 |     -0.02 |  7.56 |       0.01 |
 | KernelRidge                   |             -11.50 |     -8.25 | 22.74 |       0.01 |
+"""

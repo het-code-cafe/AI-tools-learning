@@ -1,5 +1,11 @@
 # README.md
 
+## How To Run
+
+- `pip install -r requirements.txt`
+- `python main.py`: contains a function to render all plots again, 
+or a scratchpad to re-render specific plots.
+
 ## Code Examples for Slides
 
 The code examples for the slides can be found in ray.so_images. They are, 
@@ -8,7 +14,11 @@ of course, made with ray.so.
 Settings:
 - Theme: meadow
 - Background: off
+- Margin: 16px
 - Languages used: Python, Markdown
+
+This folder also contains code snippets used for the presentation. They are not full scripts 
+and not intended to be used as such in most cases.
 
 ## Mermaid Diagrams for Slides
 

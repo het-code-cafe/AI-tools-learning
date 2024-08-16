@@ -26,7 +26,7 @@ def all_plots():
 
 
 def plot_scratch():
-    """ Scratchpad for whatever needs re-generation. Please contain (non-breaking) messes to this function. """
+    """ Scratchpad for whatever needs re-generation. """
 #    from CCPlots.LinearRegressionExample import LinearRegressionExample
 #    LinearRegressionExample().main()
 
@@ -41,8 +41,17 @@ def plot_scratch():
 #    MSEExample().main()
 #    MSEZoomExample().main()
 
-    from CCPlots.NeuralNetworkGrowthExample import NeuralNetworkGrowthExample
-    NeuralNetworkGrowthExample().main()
+#    from CCPlots.NeuralNetworkGrowthExample import NeuralNetworkGrowthExample
+#    NeuralNetworkGrowthExample().main()
+
+#    from CCPlots.NeuralNetworkActivationFunctionsExample import NeuralNetworkActivationFunctionsExample
+#    NeuralNetworkActivationFunctionsExample().main()
+
+#    from CCPlots.DecisionTreeExample import DecisionTreeExample
+#    DecisionTreeExample().main()
+
+    from CCPlots.OverfittingUnderfittingExample import OverfittingUnderfittingExample
+    OverfittingUnderfittingExample().main()
 
 
 if __name__ == "__main__":
