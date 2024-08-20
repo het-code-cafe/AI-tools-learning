@@ -50,8 +50,11 @@ def plot_scratch():
 #    from CCPlots.DecisionTreeExample import DecisionTreeExample
 #    DecisionTreeExample().main()
 
-    from CCPlots.OverfittingUnderfittingExample import OverfittingUnderfittingExample
-    OverfittingUnderfittingExample().main()
+#    from CCPlots.OverfittingUnderfittingExample import OverfittingUnderfittingExample
+#    OverfittingUnderfittingExample().main()
+
+    from CCPlots.KFoldExample import KFoldExample
+    KFoldExample().main()
 
 
 if __name__ == "__main__":
