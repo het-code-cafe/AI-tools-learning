@@ -30,16 +30,22 @@ def plot_scratch():
 #    from CCPlots.LinearRegressionExample import LinearRegressionExample
 #    LinearRegressionExample().main()
 
-#    from CCPlots.KMeansExample import KMeansExample
-#    KMeansExample().main()
-
-#    from CCPlots.LogisticRegressionExample import LogisticRegressionExample
-#    LogisticRegressionExample().main()
+#    from CCPlots.MultivariateRegressionExample import MultivariateRegressionExample
+#    MultivariateRegressionExample().main()
 
 #    from CCPlots.MSEExample import MSEExample
 #    from CCPlots.MSEZoomExample import MSEZoomExample
 #    MSEExample().main()
 #    MSEZoomExample().main()
+
+    from CCPlots.KNearestExample import KNearestExample
+    KNearestExample().main()
+
+#    from CCPlots.KMeansExample import KMeansExample
+#    KMeansExample().main()
+
+#    from CCPlots.LogisticRegressionExample import LogisticRegressionExample
+#    LogisticRegressionExample().main()
 
 #    from CCPlots.NeuralNetworkGrowthExample import NeuralNetworkGrowthExample
 #    NeuralNetworkGrowthExample().main()
@@ -53,8 +59,8 @@ def plot_scratch():
 #    from CCPlots.OverfittingUnderfittingExample import OverfittingUnderfittingExample
 #    OverfittingUnderfittingExample().main()
 
-    from CCPlots.KFoldExample import KFoldExample
-    KFoldExample().main()
+#    from CCPlots.KFoldExample import KFoldExample
+#    KFoldExample().main()
 
 
 if __name__ == "__main__":
