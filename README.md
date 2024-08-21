@@ -46,6 +46,10 @@ CodeCafé colours as well as some supporting colours to complete the palette.
 
 ### Machine Learning
 
+#### Supervised Learning
+
+- [Article on Logistic Regression](https://www.spiceworks.com/tech/artificial-intelligence/articles/what-is-logistic-regression/)
+
 #### Unsupervised Learning
 
 - [Unsupervised learning algorithms (video)](https://www.youtube.com/watch?v=7Uk-cpOEecI)
