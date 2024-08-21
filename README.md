@@ -125,12 +125,12 @@ a GUI/plotting library to best display the network)
 
 ## Plot Showcase
 
-Enjoy some pretty plots.
+Enjoy some cool plots! That need somewhat better styling in the sizing and letters 
+and margins.
 
 ### Classification Example
 
-![Classification Example](plots/classification_decision_boundary.png)
-![Classification Example](plots/classification_confusion_matrix.png)
-![Regression Example](plots/regression_example.png)
 ![Linear Regression Animation](plots/linear_regression_animation.gif)
+![Linear Regression Animation](plots/multivariate_regression_animation.gif)
 ![KMeans Clustering Animation](plots/kmeans_animation.gif)
+![KNN Regression Animation](plots/knn_visualization_animation.gif)
