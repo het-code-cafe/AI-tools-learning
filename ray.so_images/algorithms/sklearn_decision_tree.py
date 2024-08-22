@@ -10,8 +10,8 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 
 # Load the Iris dataset
 iris = load_iris()
-X = iris.data  # Features: sepal length, sepal width, petal length, petal width
-y = iris.target  # Labels: 0 (setosa), 1 (versicolor), 2 (virginica)
+X = iris.data       # Features: sepal length, sepal width, petal length, petal width
+y = iris.target     # Labels: 0 (setosa), 1 (versicolor), 2 (virginica)
 
 # Split the data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)

@@ -58,9 +58,10 @@ CodeCafé colours as well as some supporting colours to complete the palette.
 
 - [OpenAI Gymnasium](https://github.com/Farama-Foundation/Gymnasium): compare reinforcement learning algorithms.
 
-### Linear Algebra
+### Math
 
 - Wolfram Alpha offers some insightful demo's in their [demonstrations](https://demonstrations.wolfram.com/topic.html?topic=Linear+Algebra&limit=20) project (broken?).
+- [Big O cheat sheet](https://www.bigocheatsheet.com/)
 
 ## Machine Learning Per Domain
 
