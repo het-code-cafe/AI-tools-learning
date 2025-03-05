@@ -4,10 +4,11 @@ from matplotlib.colors import ListedColormap
 from sklearn.model_selection import KFold
 import seaborn as sns
 
+from CCPlots.PlotExample import PlotExample
 from CCPlots.config import OUTPUT_PATH, COLOR_PALETTE
 
 
-class KFoldExample:
+class KFoldExample(PlotExample):
 
     # Define a list of colors
     colors = [COLOR_PALETTE['base_colors']['medium_green'], COLOR_PALETTE['base_colors']['bright_yellow']]

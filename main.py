@@ -38,8 +38,8 @@ def plot_scratch():
 #    MSEExample().main()
 #    MSEZoomExample().main()
 
-    from CCPlots.KNearestExample import KNearestExample
-    KNearestExample().main()
+#    from CCPlots.KNearestExample import KNearestExample
+#    KNearestExample().main()
 
 #    from CCPlots.KMeansExample import KMeansExample
 #    KMeansExample().main()

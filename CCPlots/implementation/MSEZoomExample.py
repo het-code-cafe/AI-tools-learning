@@ -6,10 +6,11 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import SGDRegressor
 from sklearn.datasets import make_regression
 
-from .config import COLOR_PALETTE, OUTPUT_PATH
+from CCPlots.PlotExample import PlotExample
+from CCPlots.config import COLOR_PALETTE, OUTPUT_PATH
 
 
-class MSEZoomExample:
+class MSEZoomExample(PlotExample):
 
     # Set our colors from the palette
     dark_green = COLOR_PALETTE['base_colors']['dark_green']
@@ -28,6 +29,11 @@ class MSEZoomExample:
         # Initialize the model
         self.model = SGDRegressor(max_iter=1, tol=None, learning_rate='constant', eta0=self.learning_rate,
                                   random_state=42)
+
+    def main(self):
+        """Main method to train and plot the MSE zoom."""
+        self.train_one_iteration()
+        self.plot_mse_zoom()
 
     def train_one_iteration(self):
         """Train the model for one iteration and get the predictions."""
@@ -61,12 +67,6 @@ class MSEZoomExample:
 
         # Save the plot to the specified output path
         plt.savefig(OUTPUT_PATH + "mse_zoom_iteration.png")
-
-    def main(self):
-        """Main method to train and plot the MSE zoom."""
-        self.train_one_iteration()
-        self.plot_mse_zoom()
-
 
 if __name__ == "__main__":
     MSEZoomExample().main()

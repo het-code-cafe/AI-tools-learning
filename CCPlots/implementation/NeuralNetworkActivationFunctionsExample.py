@@ -4,10 +4,11 @@ NeuralNetworkActivationFunctionsExample.py
 import numpy as np
 import matplotlib.pyplot as plt
 
+from CCPlots.PlotExample import PlotExample
 from CCPlots.config import OUTPUT_PATH, COLOR_PALETTE
 
 
-class NeuralNetworkActivationFunctionsExample:
+class NeuralNetworkActivationFunctionsExample(PlotExample):
 
     # Line colors
     dark_green = COLOR_PALETTE["base_colors"]["dark_green"]
@@ -19,24 +20,6 @@ class NeuralNetworkActivationFunctionsExample:
 
     # Grid
     light_gray = COLOR_PALETTE['neutral_colors']['light_gray']
-
-    def sigmoid(self, x):
-        return 1 / (1 + np.exp(-x))
-
-    def tanh(self, x):
-        return np.tanh(x)
-
-    def relu(self, x):
-        return np.maximum(0, x)
-
-    def leaky_relu(self, x, alpha=0.01):
-        return np.where(x > 0, x, alpha * x)
-
-    def swish(self, x):
-        return x * self.sigmoid(x)
-
-    def softplus(self, x):
-        return np.log(1 + np.exp(x))
 
     def main(self):
         # Define the range of inputs
@@ -78,6 +61,23 @@ class NeuralNetworkActivationFunctionsExample:
         plt.tight_layout()
         plt.savefig(OUTPUT_PATH + "neural_network_activation_functions.png")
 
+    def sigmoid(self, x):
+        return 1 / (1 + np.exp(-x))
+
+    def tanh(self, x):
+        return np.tanh(x)
+
+    def relu(self, x):
+        return np.maximum(0, x)
+
+    def leaky_relu(self, x, alpha=0.01):
+        return np.where(x > 0, x, alpha * x)
+
+    def swish(self, x):
+        return x * self.sigmoid(x)
+
+    def softplus(self, x):
+        return np.log(1 + np.exp(x))
 
 if __name__ == "__main__":
     NeuralNetworkActivationFunctionsExample().main()

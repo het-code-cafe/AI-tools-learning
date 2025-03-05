@@ -9,10 +9,11 @@ from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 
+from CCPlots.PlotExample import PlotExample
 from CCPlots.config import OUTPUT_PATH, COLOR_PALETTE
 
 
-class OverfittingUnderfittingExample:
+class OverfittingUnderfittingExample(PlotExample):
 
     medium_green = COLOR_PALETTE['base_colors']['medium_green']
     mint_green = COLOR_PALETTE['accent_colors']['mint_green']

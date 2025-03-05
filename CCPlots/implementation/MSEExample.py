@@ -7,10 +7,11 @@ from sklearn.linear_model import SGDRegressor
 from sklearn.metrics import mean_squared_error
 from sklearn.datasets import make_regression
 
-from .config import COLOR_PALETTE, OUTPUT_PATH
+from CCPlots.PlotExample import PlotExample
+from CCPlots.config import COLOR_PALETTE, OUTPUT_PATH
 
 
-class MSEExample:
+class MSEExample(PlotExample):
     # Set our colors from the palette
     green = COLOR_PALETTE['base_colors']['medium_green']
     light_gray = COLOR_PALETTE['neutral_colors']['light_gray']
@@ -29,6 +30,11 @@ class MSEExample:
 
         # Placeholder to store MSE values
         self.mse_values = []
+
+    def main(self):
+        """Main method to run the training and plot the MSE."""
+        self.train_and_calculate_mse()
+        self.plot_mse()
 
     def train_and_calculate_mse(self):
         """Train the model and calculate MSE for each iteration."""
@@ -55,11 +61,6 @@ class MSEExample:
 
         # Save the plot to the specified output path
         plt.savefig(OUTPUT_PATH + "mse_over_iterations.png")
-
-    def main(self):
-        """Main method to run the training and plot the MSE."""
-        self.train_and_calculate_mse()
-        self.plot_mse()
 
 
 if __name__ == "__main__":

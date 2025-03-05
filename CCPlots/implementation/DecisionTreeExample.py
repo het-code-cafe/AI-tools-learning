@@ -6,10 +6,11 @@ from sklearn import tree
 from sklearn.datasets import load_iris
 from sklearn.tree import DecisionTreeClassifier
 
-from .config import OUTPUT_PATH
+from CCPlots.PlotExample import PlotExample
+from CCPlots.config import OUTPUT_PATH
 
 
-class DecisionTreeExample:
+class DecisionTreeExample(PlotExample):
 
     def main(self):
         # Load the iris dataset

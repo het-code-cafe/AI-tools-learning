@@ -9,10 +9,11 @@ from sklearn.linear_model import LogisticRegression
 from matplotlib.animation import FuncAnimation
 from matplotlib.colors import ListedColormap
 
-from .config import THEME, COLOR_PALETTE, OUTPUT_PATH
+from CCPlots.PlotExample import PlotExample
+from CCPlots.config import THEME, COLOR_PALETTE, OUTPUT_PATH
 
 
-class LogisticRegressionExample:
+class LogisticRegressionExample(PlotExample):
     # Use the specified colormap theme for the plot
     cmap_light = plt.get_cmap(THEME)
 

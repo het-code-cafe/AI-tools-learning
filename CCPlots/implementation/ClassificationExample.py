@@ -12,10 +12,11 @@ from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 import matplotlib.pyplot as plt
 import numpy as np
 
-from .config import THEME, COLOR_PALETTE, OUTPUT_PATH
+from CCPlots.PlotExample import PlotExample
+from CCPlots.config import THEME, COLOR_PALETTE, OUTPUT_PATH
 
 
-class ClassificationExample:
+class ClassificationExample(PlotExample):
     def main(self):
         # Generate a simple dataset for classification, where feature 1 is 'Age' and
         # feature 2 is 'Blood Pressure'

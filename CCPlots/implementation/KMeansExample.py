@@ -8,10 +8,11 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 from matplotlib.colors import to_rgba
 
-from .config import THEME, OUTPUT_PATH
+from CCPlots.PlotExample import PlotExample
+from CCPlots.config import THEME, OUTPUT_PATH
 
 
-class KMeansExample:
+class KMeansExample(PlotExample):
 
     def __init__(self, n_clusters=4, n_samples=300):
         self.n_clusters = n_clusters
@@ -23,6 +24,26 @@ class KMeansExample:
         cmap = plt.get_cmap(THEME)
         self.cluster_colors = [cmap(i / self.n_clusters) for i in range(self.n_clusters)]
         self.center_colors = [self.darken_color(cmap(i / self.n_clusters)) for i in range(self.n_clusters)]
+
+    def main(self):
+        fig, ax = plt.subplots()
+        ax.set_xlim(-20, 20)
+        ax.set_ylim(-20, 20)
+
+        # Initial points are grey
+        self.scatter = ax.scatter(self.X[:, 0], self.X[:, 1], s=30, c='grey', edgecolor='k')
+        self.centers = ax.scatter([], [], s=100, marker='X')  # Centers will use darker versions of cluster colors
+
+        ax.set_title("KMeans Clustering: Determining Species", fontsize=16)
+        ax.set_xlabel("Height of a penguin", fontsize=14)
+        ax.set_ylabel("Weight of a penguin", fontsize=14)
+
+        # More frames and a smaller interval to show the process better
+        ani = FuncAnimation(fig, self.update, frames=30, init_func=self.init_func, interval=10, repeat=False)
+        ani.save(OUTPUT_PATH + "kmeans_animation.gif", writer='pillow')
+
+        # Also save the last frame for non-animated use
+        fig.savefig(OUTPUT_PATH + "kmeans_clustering.png")
 
     def darken_color(self, color, factor=0.35):
         """Darken a given RGBA color."""
@@ -46,26 +67,6 @@ class KMeansExample:
     def init_func(self):
         self.scatter.set_offsets(self.X)
         return self.scatter, self.centers
-
-    def main(self):
-        fig, ax = plt.subplots()
-        ax.set_xlim(-20, 20)
-        ax.set_ylim(-20, 20)
-
-        # Initial points are grey
-        self.scatter = ax.scatter(self.X[:, 0], self.X[:, 1], s=30, c='grey', edgecolor='k')
-        self.centers = ax.scatter([], [], s=100, marker='X')  # Centers will use darker versions of cluster colors
-
-        ax.set_title("KMeans Clustering: Determining Species", fontsize=16)
-        ax.set_xlabel("Height of a penguin", fontsize=14)
-        ax.set_ylabel("Weight of a penguin", fontsize=14)
-
-        # More frames and a smaller interval to show the process better
-        ani = FuncAnimation(fig, self.update, frames=30, init_func=self.init_func, interval=10, repeat=False)
-        ani.save(OUTPUT_PATH + "kmeans_animation.gif", writer='pillow')
-
-        # Also save the last frame for non-animated use
-        fig.savefig(OUTPUT_PATH + "kmeans_clustering.png")
 
 
 if __name__ == "__main__":

@@ -4,10 +4,11 @@ NeuralNetworkGrowthExample.py
 
 import matplotlib.pyplot as plt
 
+from CCPlots.PlotExample import PlotExample
 from CCPlots.config import OUTPUT_PATH, COLOR_PALETTE
 
 
-class NeuralNetworkGrowthExample:
+class NeuralNetworkGrowthExample(PlotExample):
 
     # Plot colours
     deep_teal = COLOR_PALETTE['analogous_colors']['deep_teal']

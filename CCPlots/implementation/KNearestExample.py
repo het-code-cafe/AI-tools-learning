@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 from sklearn.neighbors import KNeighborsRegressor
 
-from .config import COLOR_PALETTE, OUTPUT_PATH
+from CCPlots.config import COLOR_PALETTE, OUTPUT_PATH
 
 
 class KNearestExample:

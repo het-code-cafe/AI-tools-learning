@@ -11,10 +11,11 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 from sklearn.linear_model import LinearRegression
 
-from .config import COLOR_PALETTE, OUTPUT_PATH
+from CCPlots.PlotExample import PlotExample
+from CCPlots.config import COLOR_PALETTE, OUTPUT_PATH
 
 
-class MultivariateRegressionExample:
+class MultivariateRegressionExample(PlotExample):
 
     # Set colors for the plot
     green = COLOR_PALETTE['base_colors']['medium_green']

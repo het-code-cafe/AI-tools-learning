@@ -8,10 +8,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.ticker as ticker
 
-from .config import OUTPUT_PATH, COLOR_PALETTE
+from CCPlots.PlotExample import PlotExample
+from CCPlots.config import OUTPUT_PATH, COLOR_PALETTE
 
 
-class RegressionExample:
+class RegressionExample(PlotExample):
 
     # Configure the colours for the plot
     dark_green = COLOR_PALETTE['base_colors']['dark_green']
