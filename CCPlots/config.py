@@ -1,3 +1,5 @@
+import matplotlib.colors as mcolors
+
 # Where to store the plots
 OUTPUT_PATH = "../../plots/"
 
@@ -36,3 +38,8 @@ COLOR_PALETTE = {
         "light_beige": "#FFE4B5"
     }
 }
+
+# Define a list of colors for a colour map
+CUSTOM_CMAP = mcolors.LinearSegmentedColormap.from_list("custom_cmap",
+                                                        [COLOR_PALETTE['base_colors']['medium_green'], COLOR_PALETTE['base_colors']['bright_yellow']],
+                                                        N=256)
