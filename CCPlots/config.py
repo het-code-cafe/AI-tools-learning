@@ -27,6 +27,7 @@ COLOR_PALETTE = {
         "golden_yellow": "#D9B23F"
     },
     "neutral_colors": {
+        "white": "#FFFFFF",
         "light_gray": "#EFEFEF",
         "medium_gray": "#8C8C8C",
         "charcoal": "#333333"
@@ -39,7 +40,7 @@ COLOR_PALETTE = {
     }
 }
 
-# Define a list of colors for a colour map
-CUSTOM_CMAP = mcolors.LinearSegmentedColormap.from_list("custom_cmap",
-                                                        [COLOR_PALETTE['base_colors']['medium_green'], COLOR_PALETTE['base_colors']['bright_yellow']],
+# Define a list of colors for a colour map (white to green)
+CUSTOM_CMAP = mcolors.LinearSegmentedColormap.from_list(name="custom_cmap",
+                                                        colors=[COLOR_PALETTE['neutral_colors']['white'], COLOR_PALETTE['base_colors']['medium_green']],
                                                         N=256)
