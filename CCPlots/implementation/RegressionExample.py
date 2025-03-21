@@ -22,14 +22,14 @@ class RegressionExample(PlotExample):
     def main(self):
 
         # Generate data for the normal distribution curve
-        mean = 100
-        std_dev = 15
+        mean = 159
+        std_dev = 6.1
         x = np.linspace(mean - 4*std_dev, mean + 4*std_dev, 1000)
         y = (1/(std_dev * np.sqrt(2 * np.pi))) * np.exp(-0.5 * ((x - mean) / std_dev)**2)
 
         # Plot the normal distribution
         plt.figure(figsize=(10, 6))
-        plt.plot(x, y, label="Normal Distribution", color=COLOR_PALETTE['base_colors']['medium_green'])
+        plt.plot(x, y, label="Female Height Distribution World-wide", color=COLOR_PALETTE['base_colors']['medium_green'])
 
         # Shade the regions under the curve
         plt.fill_between(x, y, where=(x <= mean - 2*std_dev), color=self.green, alpha=0.4)
@@ -52,8 +52,8 @@ class RegressionExample(PlotExample):
         plt.text(mean + 2*std_dev, max(y)*0.9, '130', ha='center', color='#113428', fontsize=12)
 
         # Set plot labels and title
-        plt.title("Normal Distribution of IQ Scores", fontsize=16)
-        plt.xlabel("IQ Score", fontsize=14)
+        plt.title("Female Height Distribution World-wide", fontsize=16)
+        plt.xlabel("Height in cms (mean=159, std=6.1)", fontsize=14)
         plt.ylabel("Probability Density", fontsize=14)
         plt.grid(True)
 
