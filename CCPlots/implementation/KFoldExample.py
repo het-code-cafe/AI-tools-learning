@@ -10,7 +10,7 @@ from CCPlots.config import OUTPUT_PATH, COLOR_PALETTE
 
 class KFoldExample(PlotExample):
 
-    # Define a list of colors, in this case we specifically need two!
+    # This example specifically needs a binary colour map
     colors = [COLOR_PALETTE['base_colors']['medium_green'], COLOR_PALETTE['base_colors']['bright_yellow']]
 
     def __init__(self):
