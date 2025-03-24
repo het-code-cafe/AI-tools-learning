@@ -11,18 +11,20 @@ import CCPlots
 
 def all_plots():
     """
-    This function will, as you probably suspected, run all the plots.
-    This is a slow process and will give you lots of warnings that I don't have time
-    to fix, since we just use dummy data as an illustration.
+    This function will run all the PlotExample implementations to regenerate plots.
+
+    This is a slow process and will give you lots of warnings (thanks dummy data and ChatGPT)
     :return:
     """
-    classes = [cls for name, cls in CCPlots.__dict__.items()
-               if isinstance(cls, type) and cls.__module__.startswith('CCPlots')]
+    # Retrieve all implementations of examples
+    classes = [
+        cls for name, cls in CCPlots.__dict__.items()
+        if isinstance(cls, type)
+           and cls.__module__.startswith('CCPlots.implementation')
+    ]
 
-    # Create or save plots
-    for cls in classes:
-        instance = cls()
-        instance.main()
+    # Run all examples
+    for cls in classes: instance = cls().main()
 
 
 def plot_scratch():
@@ -30,42 +32,9 @@ def plot_scratch():
 #    from CCPlots.LinearRegressionExample import LinearRegressionExample
 #    LinearRegressionExample().main()
 
-#    from CCPlots.MultivariateRegressionExample import MultivariateRegressionExample
-#    MultivariateRegressionExample().main()
-
-#    from CCPlots.MSEExample import MSEExample
-#    from CCPlots.MSEZoomExample import MSEZoomExample
-#    MSEExample().main()
-#    MSEZoomExample().main()
-
-#    from CCPlots.KNearestExample import KNearestExample
-#    KNearestExample().main()
-
-#    from CCPlots.KMeansExample import KMeansExample
-#    KMeansExample().main()
-
-#    from CCPlots.LogisticRegressionExample import LogisticRegressionExample
-#    LogisticRegressionExample().main()
-
-#    from CCPlots.NeuralNetworkGrowthExample import NeuralNetworkGrowthExample
-#    NeuralNetworkGrowthExample().main()
-
-#    from CCPlots.NeuralNetworkActivationFunctionsExample import NeuralNetworkActivationFunctionsExample
-#    NeuralNetworkActivationFunctionsExample().main()
-
-#    from CCPlots.DecisionTreeExample import DecisionTreeExample
-#    DecisionTreeExample().main()
-
-#    from CCPlots.OverfittingUnderfittingExample import OverfittingUnderfittingExample
-#    OverfittingUnderfittingExample().main()
-
-#    from CCPlots.KFoldExample import KFoldExample
-#    KFoldExample().main()
-
-
 if __name__ == "__main__":
     # This takes a while, comment out at your own risk
-    #all_plots()
+    all_plots()
 
     # Plot only what is needed
-    plot_scratch()
+    #plot_scratch()
