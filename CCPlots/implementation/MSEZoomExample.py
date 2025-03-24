@@ -19,16 +19,28 @@ class MSEZoomExample(PlotExample):
     mint_green = COLOR_PALETTE['accent_colors']['mint_green']
     light_gray = COLOR_PALETTE['neutral_colors']['light_gray']
 
+    # Array for the final predictions
+    y_pred = None
+
     def __init__(self, n_samples=100, learning_rate=0.01):
         self.n_samples = n_samples
         self.learning_rate = learning_rate
 
         # Generate synthetic data for regression
-        self.X, self.y = make_regression(n_samples=self.n_samples, n_features=1, noise=15, random_state=42)
+        self.X, self.y = make_regression(
+            n_samples=self.n_samples,
+            n_features=1,
+            noise=15,
+            random_state=42)
 
         # Initialize the model
-        self.model = SGDRegressor(max_iter=1, tol=None, learning_rate='constant', eta0=self.learning_rate,
-                                  random_state=42)
+        self.model = SGDRegressor(
+            max_iter=1,
+            tol=None,
+            learning_rate='constant',
+            eta0=self.learning_rate,
+            random_state=42
+        )
 
     def main(self):
         """Main method to train and plot the MSE zoom."""
@@ -55,9 +67,9 @@ class MSEZoomExample(PlotExample):
             plt.plot([self.X[i], self.X[i]], [self.y[i], self.y_pred[i]], color=self.mint_green, linestyle='--')
 
         # Title and labels
-        plt.title('Zoomed-In MSE for one iteration', fontsize=16)
-        plt.xlabel('Feature value', fontsize=14)
-        plt.ylabel('Target value', fontsize=14)
+        plt.title('Differences between predicted function and actual values', fontsize=16)
+        plt.xlabel("X value (feature)", fontsize=14)
+        plt.ylabel("Y value (prediction/actual)", fontsize=14)
 
         # Light gray grid
         plt.grid(True, color=self.light_gray)
