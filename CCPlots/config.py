@@ -30,6 +30,7 @@ COLOR_PALETTE = {
         "white": "#FFFFFF",
         "light_gray": "#EFEFEF",
         "medium_gray": "#8C8C8C",
+        "dark_gray": "#505050",
         "charcoal": "#333333"
     },
     "accent_colors": {
@@ -41,6 +42,11 @@ COLOR_PALETTE = {
 }
 
 # Define a list of colors for a colour map (white to green)
-CUSTOM_CMAP = mcolors.LinearSegmentedColormap.from_list(name="custom_cmap",
-                                                        colors=[COLOR_PALETTE['neutral_colors']['white'], COLOR_PALETTE['base_colors']['medium_green']],
-                                                        N=256)
+CMAP_WHITE = mcolors.LinearSegmentedColormap.from_list(name="custom_cmap",
+                                                       colors=[COLOR_PALETTE['neutral_colors']['white'], COLOR_PALETTE['base_colors']['medium_green']],
+                                                       N=256)
+
+# Colourful custom colour map
+CMAP_BRAND = mcolors.LinearSegmentedColormap.from_list(name="custom_cmap",
+                                                       colors=[COLOR_PALETTE['base_colors']['bright_yellow'], COLOR_PALETTE['base_colors']['medium_green'], COLOR_PALETTE['base_colors']['bright_teal']],
+                                                       N=256)

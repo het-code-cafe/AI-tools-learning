@@ -3,7 +3,7 @@ import numpy as np
 import seaborn as sns
 
 from CCPlots.PlotExample import PlotExample
-from CCPlots.config import OUTPUT_PATH, CUSTOM_CMAP
+from CCPlots.config import OUTPUT_PATH, CMAP_WHITE
 
 
 class EvaluationMetricsExample(PlotExample):
@@ -23,7 +23,7 @@ class EvaluationMetricsExample(PlotExample):
 
         # Create the heatmap
         plt.figure(figsize=(8, 6))
-        ax = sns.heatmap(conf_matrix, annot=group_labels, fmt="", cmap=CUSTOM_CMAP, cbar=True,
+        ax = sns.heatmap(conf_matrix, annot=group_labels, fmt="", cmap=CMAP_WHITE, cbar=True,
                          xticklabels=["Predicted Healthy", "Predicted Sick"],
                          yticklabels=["Is Healthy", "Is Sick"])
 
