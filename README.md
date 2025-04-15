@@ -1,7 +1,10 @@
 # README.md
 
 This is a repository used to generate plots and other learning materials 
-for AI courses, including ML and Data Science.
+for AI courses, including ML and Data Science. 
+
+This repository contains a variety of diagrams (Mermaid & Napkin), plots (plots folder, all generated with the CCPlots module) and code examples (ray.so folder). 
+Most of these plots have also been created with some AI assistance!
 
 ## Contents
 
@@ -16,7 +19,8 @@ for AI courses, including ML and Data Science.
 
 - `pip install -r requirements.txt`
 - `python main.py`: contains a function to render all plots again, 
-or a scratchpad to re-render specific plots.
+or a scratchpad to re-render specific plots. You can also run the implementation
+files to regenerate a single plot.
 
 ## Code Snippets (ray.so)
 
@@ -46,6 +50,10 @@ CodeCafé colours as well as some supporting colours to complete the palette.
 
 ### Machine Learning
 
+#### General
+
+- [Free books on Machine Learning from the Ebook Foundation](https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-subjects.md#machine-learning)
+
 #### Supervised Learning
 
 - [Article on Logistic Regression](https://www.spiceworks.com/tech/artificial-intelligence/articles/what-is-logistic-regression/)
@@ -63,7 +71,7 @@ CodeCafé colours as well as some supporting colours to complete the palette.
 - Wolfram Alpha offers some insightful demo's in their [demonstrations](https://demonstrations.wolfram.com/topic.html?topic=Linear+Algebra&limit=20) project (broken?).
 - [Big O cheat sheet](https://www.bigocheatsheet.com/)
 
-## Machine Learning Per Domain
+## Machine Learning Per Domain (Python)
 
 Jump to field:
 
