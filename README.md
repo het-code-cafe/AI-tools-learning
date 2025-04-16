@@ -71,7 +71,10 @@ CodeCafé colours as well as some supporting colours to complete the palette.
 - Wolfram Alpha offers some insightful demo's in their [demonstrations](https://demonstrations.wolfram.com/topic.html?topic=Linear+Algebra&limit=20) project (broken?).
 - [Big O cheat sheet](https://www.bigocheatsheet.com/)
 
-## Machine Learning Per Domain (Python)
+## Machine Learning with Python
+
+Python has many libraries for Machine Learning. While the defaults are NumPy, Pandas, Matplotlib, Seaborn and Scikit-Learn, there are several domain-specific 
+libraries available too!
 
 Jump to field:
 
