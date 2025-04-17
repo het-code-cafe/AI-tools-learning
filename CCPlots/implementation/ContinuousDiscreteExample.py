@@ -1,3 +1,13 @@
+"""
+ContinuousDiscreteExample.py
+
+This example illustrates the difference between categorical and continuous variables.
+The intention is to also illustrate the concept of binning, which can turn a regression
+problem into a classification problem.
+
+@TODO: Finish up this example, it can be made clearer.
+"""
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
