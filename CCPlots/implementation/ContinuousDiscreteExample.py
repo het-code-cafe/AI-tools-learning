@@ -14,23 +14,41 @@ class ContinuousDiscreteExample(PlotExample):
     mint = COLOR_PALETTE['accent_colors']['mint_green']
 
     def main(self) -> None:
-        # Simulated data
+        # Simulated continuous data: ages (with some exceptionally high ages for realism)
+        np.random.seed(42)
+        ages = np.concatenate([
+            np.random.normal(loc=35, scale=10, size=450),   # Most people between 25-45
+            np.random.normal(loc=75, scale=8, size=40),     # Older age group
+            np.random.normal(loc=95, scale=3, size=10)      # Exceptionally old
+        ])
+        ages = np.clip(ages, 0, 100)  # Keep all values between 0 and 100
+
+        # Bin the continuous data into categories
+        bins = [0, 18, 25, 35, 50, 65, 80, 100]
+        labels = ['<18', '18–24', '25–34', '35–49', '50–64', '65–79', '80+']
+        age_bins = pd.cut(ages, bins=bins, labels=labels, right=False)
+
         df = pd.DataFrame({
-            'Categorical': np.random.choice(['Red', 'Green', 'Blue', 'Yellow', 'Purple', 'Orange'], size=200),
-            'Continuous': np.random.normal(loc=70, scale=10, size=200)
+            'Age': ages,
+            'Age Group': age_bins
         })
 
         # Plot
-        fig, axs = plt.subplots(1, 2, figsize=(12, 4))
+        fig, axs = plt.subplots(1, 2, figsize=(14, 5))
 
-        sns.countplot(x='Categorical', data=df, ax=axs[0], color=self.green)
-        axs[0].set_title("Categorical Variable (Bar Plot)")
+        # Categorical version: bar plot
+        sns.countplot(x='Age Group', data=df, ax=axs[1], color=self.mint, order=labels)
+        axs[1].set_title("Categorical Variable: Age Bins")
+        axs[1].set_xlabel("Age Group")
 
-        sns.histplot(df['Continuous'], kde=True, ax=axs[1], color=self.green)
-        axs[1].set_title("Continuous Variable (Histogram)")
+        # Continuous data: histogram
+        sns.histplot(df['Age'], kde=True, ax=axs[0], color=self.green)
+        axs[0].set_title("Continuous Variable: Age Distribution")
+        axs[0].set_xlabel("Age")
 
         plt.tight_layout()
         plt.show()
+
 
 if __name__ == "__main__":
     ContinuousDiscreteExample().main()
