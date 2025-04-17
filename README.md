@@ -8,12 +8,15 @@ Most of these plots have also been created with some AI assistance!
 
 ## Contents
 
+The following sections are included in this file:
+
 - [Plots generated with Python](#python-plots)
 - [Code snippets (in presentation)](#code-snippets-rayso)
 - [Mermaid diagrams (in presentation)](#mermaid-diagrams)
 - [Styling](#styling)
-- [Sources](#sources)
 - [Plot Showcase](#plot-showcase)
+
+Also see the `docs` folder.
 
 ## Python Plots
 
