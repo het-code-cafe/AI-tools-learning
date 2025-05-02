@@ -1,19 +1,16 @@
 # AI Sources
 
-- [Articles](#articles)
-- [Books](#books)
-- [Interactive demos](#interactive-demos)
-- [Videos](#videos)
+This documentation contains many links to help you navigate the many useful sources for AI. 
+These can then be cherry-picked for different AI-related trainings.
 
-## Articles
+Use this file to navigate between the documents.
 
-## Books
+## Sources by subject
 
-## Interactive demos
+- [Introduction to AI sources](./intro_sources.md)
+- [LLM Sources](./LLM_sources.md)
+- [Machine Learning](./ML_sources.md)
 
-- [Tensorflow Neural Network Playground](https://playground.tensorflow.org/)
+## Sources by programming language
 
-## Videos
-
-- [Chinese Room Thought Experiment (by John Searle)](https://www.youtube.com/watch?v=TryOC83PH1g)
-- 
+- [Python & AI coding](./Python_sources.md)
