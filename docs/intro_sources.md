@@ -5,10 +5,15 @@ To get an introduction to what AI means and what it can do, you can explore the 
 ## Source Types
 
 - [Articles](#articles)
+- [Blogs](#blogs)
 - [Books](#books)
 - [Videos](#videos)
 
 ### Articles
+
+### Blogs
+
+- [Accessible articles on weird AI by Janelle Shane](https://www.aiweirdness.com/author/ai/)
 
 ### Books
 
