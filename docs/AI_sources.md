@@ -10,6 +10,7 @@ Use this file to navigate between the documents.
 - [Introduction to AI sources](./intro_sources.md)
 - [LLM Sources](./LLM_sources.md)
 - [Machine Learning](./ML_sources.md)
+- [Use Cases](AI_use_cases.md)
 
 ## Sources by programming language
 
