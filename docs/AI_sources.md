@@ -8,6 +8,7 @@ Use this file to navigate between the documents.
 ## Sources by subject
 
 - [Introduction to AI sources](./intro_sources.md)
+- [AI Ethics & Law](AI_ethics)
 - [LLM Sources](./LLM_sources.md)
 - [Machine Learning](./ML_sources.md)
 - [Use Cases](AI_use_cases.md)
@@ -15,3 +16,7 @@ Use this file to navigate between the documents.
 ## Sources by programming language
 
 - [Python & AI coding](./Python_sources.md)
+
+## Practice
+
+- [Exercises](exercises)

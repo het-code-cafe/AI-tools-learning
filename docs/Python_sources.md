@@ -1,5 +1,7 @@
 # Python Sources
 
+Also check out the [exercises](exercises.md) for more tips and learning!
+
 - [Basics](#basics)
 - [Natural Language Processing](#natural-language-processing)
 - [Computer Vision](#computer-vision)
