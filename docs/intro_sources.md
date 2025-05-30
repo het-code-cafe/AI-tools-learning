@@ -23,6 +23,7 @@ To get an introduction to what AI means and what it can do, you can explore the 
 ### Interactive
 
 - [ELIZA: the first chatbot](https://eliza.botlibre.com/)
+- [Try linear regression with two numerical columns](https://lr-fitter-edu.streamlit.app/)
 
 ### Videos
 
