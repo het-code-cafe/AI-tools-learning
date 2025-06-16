@@ -3,7 +3,8 @@
 This documentation contains many links to help you navigate the many useful sources for AI. 
 These can then be cherry-picked for different AI-related trainings.
 
-Use this file to navigate between the documents.
+Use this file to navigate between the documents. This document just contains links 
+to different categories, sources can be found within the subdocuments.
 
 ## Sources by subject
 
