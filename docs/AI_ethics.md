@@ -5,6 +5,9 @@ The following sources discuss ethics and law in AI, as well as related fields.
 ## AI Ethics
 
 - [Future of Life Institute on AI](https://futureoflife.org/focus-area/artificial-intelligence/)
+- [Trustworthy AI Guidelines (accessible)](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai)
+- [Trustworthy AI Guidelines (full document)](https://www.europarl.europa.eu/cmsdata/196377/AI%20HLEG_Ethics%20Guidelines%20for%20Trustworthy%20AI.pdf)
+- [Friendly AI](https://www.opentrain.ai/glossary/friendly-artificial-intelligence-fai)
 
 ## AI Law
 

@@ -13,6 +13,7 @@ These sources are particularly interesting for business-related trainings.
 ## Showcases
 
 - [100 AI use cases in 2025](https://research.aimultiple.com/ai-usecases/)
+- [Algoritmeregister Nederlandse Overheid](https://algoritmes.overheid.nl/)
 
 ## News Sources
 
