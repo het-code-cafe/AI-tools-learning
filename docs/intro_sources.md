@@ -19,6 +19,7 @@ To get an introduction to what AI means and what it can do, you can explore the 
 
 - Human + Machine
 - Artificial Intelligence: A Modern Approach
+- [Free Books on AI by the Ebook Foundation](https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-subjects.md#artificial-intelligence)
 
 ### Interactive
 
