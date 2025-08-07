@@ -6,7 +6,15 @@ These can then be cherry-picked for different AI-related trainings.
 Use this file to navigate between the documents. This document just contains links 
 to different categories, sources can be found within the subdocuments.
 
+## Nederlandse Bronnen
+
+Sources in the Dutch language or directly applicable to the Netherlands, where we are located.
+
+- [Nederlandse AI bronnen](AI_nl)
+
 ## Sources by subject
+
+Browse sources by different topics.
 
 - [Introduction to AI sources](./intro_sources.md)
 - [AI Ethics & Law](AI_ethics)
@@ -16,8 +24,12 @@ to different categories, sources can be found within the subdocuments.
 
 ## Sources by programming language
 
+Get sources for specific programming languages.
+
 - [Python & AI coding](./Python_sources.md)
 
 ## Practice
+
+Interactive sources to practice AI concepts.
 
 - [Exercises](exercises)
