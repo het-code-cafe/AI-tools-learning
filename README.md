@@ -3,8 +3,15 @@
 This is a repository used to generate plots and other learning materials 
 for AI courses, including ML and Data Science.
 
-This repository contains a variety of diagrams (Mermaid & Napkin), plots (plots folder, all generated with the CCPlots module) and code examples (ray.so folder). 
+This repository contains a variety of sources (docs folder), diagrams (Mermaid & Napkin), 
+plots (plots folder, all generated with the CCPlots module) and code examples (ray.so folder). 
 Most of these plots have also been created with some AI assistance!
+
+## AI Sources
+
+The 'docs' folder contains some great sources to learn more about AI. 
+If you are here for the sources, please click [here](docs/AI_sources)! 
+The rest of this file will discuss how the other contents were produced for developers.
 
 ## Contents
 

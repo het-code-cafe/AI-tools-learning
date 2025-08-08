@@ -1,6 +1,7 @@
 ## Introduction to AI Sources
 
-To get an introduction to what AI means and what it can do, you can explore the sources below.
+To get an introduction to what AI means and what it can do, you can explore the sources below. 
+If you are a beginner or business user of AI, this is the best place to start.
 
 ## Source Types
 
@@ -10,10 +11,7 @@ To get an introduction to what AI means and what it can do, you can explore the 
 
 ### Articles
 
-- [Article on failed AI recipes, including chlorine gas](https://www.forbes.com/sites/mattnovak/2023/08/12/supermarket-ai-gives-horrifying-recipes-for-poison-sandwiches-and-deadly-chlorine-gas/)
-- [Working with AI: Measuring the Occupational Implications of Generative AI](https://arxiv.org/abs/2507.07935)
-- [Future of Work Research by Microsoft (sums up a LOT of research)](https://www.microsoft.com/en-us/research/wp-content/uploads/2024/12/NFWReport2024_1.27.2025.pdf)
-- [The Measurement Problem in AI (On AI Evaluation and comparison)](https://aheadofthecurveai.substack.com/p/the-measurement-problem-in-ai-what)
+- [Forbes article on failed AI recipes, including chlorine gas](https://www.forbes.com/sites/mattnovak/2023/08/12/supermarket-ai-gives-horrifying-recipes-for-poison-sandwiches-and-deadly-chlorine-gas/)
 
 We also recommend [Janelle Shane's articles on weird AI](https://www.aiweirdness.com/author/ai/). They tell us a lot about how AI actually functions in 
 an entertaining way.
@@ -26,7 +24,6 @@ an entertaining way.
 
 ### Interactive
 
-
 - [ELIZA: the first chatbot](https://eliza.botlibre.com/)
 - [Try linear regression with two numerical columns](https://lr-fitter-edu.streamlit.app/)
 
@@ -34,3 +31,15 @@ an entertaining way.
 
 - [Chinese Room Thought Experiment (by John Searle)](https://www.youtube.com/watch?v=TryOC83PH1g)
 - [Albert Learns How To Walk (Reinforcement Learning)](https://www.youtube.com/watch?v=L_4BPjLBF4E)
+- [Helix Logistics: AI in the work force](https://www.youtube.com/watch?v=f6ChFc8eUuo)
+
+## Read More
+
+Use the links below to jump to different overviews of sources.
+
+- [AI Sources Overview](AI_sources)
+- [AI Use Cases](AI_use_cases)
+- [AI Law & Ethics](AI_ethics)
+- [AI & The Future](AI_future)
+- [Large Language Models](LLM_sources)
+- [Machine Learning](ML_sources)

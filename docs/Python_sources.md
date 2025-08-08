@@ -93,3 +93,12 @@ a GUI/plotting library to best display the network)
 - [FastAPI](https://fastapi.tiangolo.com/): build API's fast.
 - [Flask](https://flask.palletsprojects.com/en/3.0.x/): build web applications with ease.
 - [Plotly](https://plotly.com/python/): dashboard library, great for visualization.
+
+## Read More
+
+Use the links below to jump to different overviews of sources.
+
+- [AI Sources Overview](AI_sources)
+- [Machine Learning](ML_sources)
+- [Large Language Models](LLM_sources)
+- [Practice with AI](exercises)
