@@ -10,7 +10,22 @@ General guidelines:
 - [Read: Trustworthy AI Guidelines (accessible)](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai)
 - [Read: Trustworthy AI Guidelines (full document)](https://www.europarl.europa.eu/cmsdata/196377/AI%20HLEG_Ethics%20Guidelines%20for%20Trustworthy%20AI.pdf)
 - [Read: Friendly AI](https://www.opentrain.ai/glossary/friendly-artificial-intelligence-fai)
+
+### Copyright
+
+The following sources contain more information on copyright & IP in the context of AI. 
+You might also be interested in the [Dataset Providers Alliance](https://www.thedpa.ai/), 
+who aim to source AI training data lawfully and ethically.
+
 - [Watch: TED talk: AI & Copyrighted Artwork](https://www.youtube.com/watch?v=U9d0p96N1iw)
+
+### Image & Video Generation
+
+- [Read: OpenAI Image Generation Policy](https://www.ainews.com/p/openai-s-new-image-policy-raises-questions-about-ethics-and-ai)
+
+### Privacy
+
+- [Read: LLMs ranked by privacy](https://blog.incogni.com/ai-llm-privacy-ranking-2025/)
 
 ## AI Law
 
