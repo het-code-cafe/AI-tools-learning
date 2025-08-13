@@ -14,8 +14,9 @@ If you are interested in use cases in NL specifically, check out the [NL AI Sour
 
 ## Showcases
 
-- [Smart glasses & AI assistants: Google Project Astra](https://www.youtube.com/watch?v=nXVvvRhiGjI)
-- [100 AI use cases in 2025](https://research.aimultiple.com/ai-usecases/)
+- [Read: Smart glasses & AI assistants: Google Project Astra](https://www.youtube.com/watch?v=nXVvvRhiGjI)
+- [Read: Use Cases for AI](https://usecasesfor.ai/)
+- [Read: 100 AI use cases in 2025](https://research.aimultiple.com/ai-usecases/)
 
 ## News Sources
 
