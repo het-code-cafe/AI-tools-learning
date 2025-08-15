@@ -23,6 +23,7 @@ Browse sources by different topics.
 - [Machine Learning](./ML_sources.md)
 - [Large Language Models](./LLM_sources.md)
 - [AI in the Future](AI_future)
+- [AI for a better Future](AI_better_future)
 
 ## Sources by sector
 
@@ -30,6 +31,7 @@ AI has very useful applications in many sectors. The following sectors have thei
 overviews.
 
 - [Finance](AI_finance)
+- [Healthcare](AI_healthcare)
 
 ## Sources by programming language
 

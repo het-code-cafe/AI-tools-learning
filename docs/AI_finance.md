@@ -23,6 +23,10 @@ finance specifically.
 
 - [Read: Clifford Chance: EU AI Act for Finance](https://www.cliffordchance.com/content/dam/cliffordchance/briefings/2021/09/impact-of-the-new-eu-ai-regulation-on-financial-sector-firms.pdf)
 
+## Practice
+
+- [MS Learn: Microsoft AI for the Financial Industry](https://learn.microsoft.com/en-us/training/paths/discover-microsoft-ai-leaders-financial-industry/)
+
 ## Read More
 
 Use the links below to jump to different overviews of sources.

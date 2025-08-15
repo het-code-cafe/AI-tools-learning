@@ -32,6 +32,12 @@ who aim to source AI training data lawfully and ethically.
 - [Read: EU AI Act](https://artificialintelligenceact.eu/the-act/)
 - [Read: EU AI Act: How it Protects You](https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence)
 
+## Interactive Learning
+
+The following sources can help you research and practice applying AI ethics and law.
+
+- [MS Learn: Microsoft AI for Sustainability](https://learn.microsoft.com/en-us/training/paths/discover-microsoft-ai-leaders-sustainability/)
+
 ## Related Ethics
 
 - [Read: Three Laws of Robotics - Isaac Asimov](https://en.wikipedia.org/wiki/Three_Laws_of_Robotics)
