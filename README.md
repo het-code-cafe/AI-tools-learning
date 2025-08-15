@@ -1,17 +1,23 @@
 # README.md
 
+The 'docs' folder contains some great sources to learn more about AI. 
+If you are here for the sources, please click [here](docs/AI_sources)! 
+
+The rest of this file will discuss how the other contents were produced and are 
+usable for developers.
+
+## About the repo
+
 This is a repository used to generate plots and other learning materials 
-for AI courses, including ML and Data Science.
+for AI courses, including ML and Data Science. The 'docs' folder is more 
+like an AI sources wiki that got a little out of hand and deserves its own project 
+some day.
 
 This repository contains a variety of sources (docs folder), diagrams (Mermaid & Napkin), 
 plots (plots folder, all generated with the CCPlots module) and code examples (ray.so folder). 
-Most of these plots have also been created with some AI assistance!
 
-## AI Sources
-
-The 'docs' folder contains some great sources to learn more about AI. 
-If you are here for the sources, please click [here](docs/AI_sources)! 
-The rest of this file will discuss how the other contents were produced for developers.
+Most of these plots have also been created with some AI assistance, but they follow a common interface. 
+Amazing code quality not guaranteed, since these are just used for example graphs. :)
 
 ## Contents
 
