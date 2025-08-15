@@ -12,6 +12,6 @@ job market and predictions for AI developments.
 
 Use the links below to jump to different overviews of sources.
 
-- [AI Sources Overview](AI_sources)
-- [AI Law & Ethics](ai_ethics)
-- [AI Use Cases](AI_use_cases)
+- [AI Sources Overview](AI_sources.md)
+- [AI Law & Ethics](ai_ethics.md)
+- [AI Use Cases](AI_use_cases.md)

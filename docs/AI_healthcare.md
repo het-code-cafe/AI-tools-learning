@@ -11,5 +11,5 @@
 
 ## Read More
 
-- [Sources Overview](AI_sources)
-- [AI Ethics & Law](AI_ethics)
+- [Sources Overview](AI_sources.md)
+- [AI Ethics & Law](AI_ethics.md)

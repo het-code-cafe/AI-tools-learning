@@ -19,5 +19,5 @@ Het volgende register kan ook interessante data bevatten voor toepassing binnen 
 Naast deze bronnen zijn er ook veel nuttige Engelstalige bronnen te vinden via de 
 onderstaande links.
 
-- [AI Sources Overview](AI_sources)
-- [AI Use Cases](AI_use_cases)
+- [AI Sources Overview](AI_sources.md)
+- [AI Use Cases](AI_use_cases.md)

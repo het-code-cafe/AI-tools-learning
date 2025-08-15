@@ -30,7 +30,7 @@ Many sources have been published on mitigating harmful behaviour from LLMs,
 
 Use the links below to jump to different overviews of sources.
 
-- [AI Sources Overview](AI_sources)
-- [AI Use Cases](AI_use_cases)
-- [Large Language Models](LLM_sources)
-- [Practice with AI](exercises)
+- [AI Sources Overview](AI_sources.md)
+- [AI Use Cases](AI_use_cases.md)
+- [Large Language Models](LLM_sources.md)
+- [Practice with AI](exercises.md)

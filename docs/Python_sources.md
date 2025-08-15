@@ -98,7 +98,7 @@ a GUI/plotting library to best display the network)
 
 Use the links below to jump to different overviews of sources.
 
-- [AI Sources Overview](AI_sources)
-- [Machine Learning](ML_sources)
-- [Large Language Models](LLM_sources)
-- [Practice with AI](exercises)
+- [AI Sources Overview](AI_sources.md)
+- [Machine Learning](ML_sources.md)
+- [Large Language Models](LLM_sources.md)
+- [Practice with AI](exercises.md)

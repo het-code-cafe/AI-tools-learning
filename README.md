@@ -1,7 +1,7 @@
 # README.md
 
 The 'docs' folder contains some great sources to learn more about AI. 
-If you are here for the sources, please click [here](docs/AI_sources)! 
+If you are here for the sources, please click [here](docs/AI_sources.md)! 
 
 The rest of this file will discuss how the other contents were produced and are 
 usable for developers.

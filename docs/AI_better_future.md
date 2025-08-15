@@ -39,7 +39,7 @@ AI also has the potential to support non-profit organisations.
 
 ## Read More
 
-- [Sources Overview](AI_sources)
-- [AI Ethics & Law](AI_ethics)
-- [AI in Healthcare](AI_healthcare)
-- [AI and the Future](AI_future)
+- [Sources Overview](AI_sources.md)
+- [AI Ethics & Law](AI_ethics.md)
+- [AI in Healthcare](AI_healthcare.md)
+- [AI and the Future](AI_future.md)

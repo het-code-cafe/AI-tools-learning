@@ -37,9 +37,9 @@ an entertaining way.
 
 Use the links below to jump to different overviews of sources.
 
-- [AI Sources Overview](AI_sources)
-- [AI Use Cases](AI_use_cases)
-- [AI Law & Ethics](AI_ethics)
-- [AI & The Future](AI_future)
-- [Large Language Models](LLM_sources)
-- [Machine Learning](ML_sources)
+- [AI Sources Overview](AI_sources.md)
+- [AI Use Cases](AI_use_cases.md)
+- [AI Law & Ethics](AI_ethics.md)
+- [AI & The Future](AI_future.md)
+- [Large Language Models](LLM_sources.md)
+- [Machine Learning](ML_sources.md)
