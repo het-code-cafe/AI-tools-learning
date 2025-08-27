@@ -42,8 +42,11 @@ COLOR_PALETTE = {
 }
 
 # Define a list of colors for a colour map (white to green)
-CMAP_WHITE = mcolors.LinearSegmentedColormap.from_list(name="custom_cmap",
+CMAP_WHITE = mcolors.LinearSegmentedColormap.from_list(name="white_cmap",
                                                        colors=[COLOR_PALETTE['neutral_colors']['white'], COLOR_PALETTE['base_colors']['medium_green']],
+                                                       N=256)
+CMAP_CONTRAST = mcolors.LinearSegmentedColormap.from_list(name="contrast_cmap",
+                                                       colors=[COLOR_PALETTE['base_colors']['medium_green'], COLOR_PALETTE['complementary_colors']['rusty_red']],
                                                        N=256)
 
 # Colourful custom colour map
