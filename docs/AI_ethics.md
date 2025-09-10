@@ -6,10 +6,12 @@ The following sources discuss ethics and law in AI, as well as related fields.
 
 General guidelines:
 
-- [Read: Future of Life Institute on AI](https://futureoflife.org/focus-area/artificial-intelligence/)
-- [Read: Trustworthy AI Guidelines (accessible)](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai)
-- [Read: Trustworthy AI Guidelines (full document)](https://www.europarl.europa.eu/cmsdata/196377/AI%20HLEG_Ethics%20Guidelines%20for%20Trustworthy%20AI.pdf)
-- [Read: Friendly AI](https://www.opentrain.ai/glossary/friendly-artificial-intelligence-fai)
+- [Website: Future of Life Institute on AI](https://futureoflife.org/focus-area/artificial-intelligence/)
+- [Article: Trustworthy AI Guidelines (accessible)](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai)
+- [Article: Trustworthy AI Guidelines (full document)](https://www.europarl.europa.eu/cmsdata/196377/AI%20HLEG_Ethics%20Guidelines%20for%20Trustworthy%20AI.pdf)
+- [Article: Friendly AI](https://www.opentrain.ai/glossary/friendly-artificial-intelligence-fai)
+- [Book: AI Safety for Fleshy Humans](https://aisafety.dance/)
+
 
 ### Copyright
 

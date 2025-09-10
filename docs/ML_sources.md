@@ -24,12 +24,18 @@ extensive collection of open-sourced Machine Learning models.
 
 - [Free books on Machine Learning from the Ebook Foundation](https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-subjects.md#machine-learning)
 
-### Supervised Learning
+### Data
 
+- [Paper: The Unreasonable Effectiveness of Data (Peter Norvig)](https://static.googleusercontent.com/media/research.google.com/nl//pubs/archive/35179.pdf) 
+
+### Supervised Learning vs. Unsupervised Learning
+
+- [Article: Supervised vs. unsupervised learning](https://www.geeksforgeeks.org/machine-learning/supervised-unsupervised-learning/)
+
+Supervised learning techniques:
 - [Article on Logistic Regression](https://www.spiceworks.com/tech/artificial-intelligence/articles/what-is-logistic-regression/)
 
-### Unsupervised Learning
-
+Unsupervised learning techniques:
 - [Watch: Unsupervised learning algorithms (video)](https://www.youtube.com/watch?v=7Uk-cpOEecI)
 
 ### Reinforcement learning
@@ -46,8 +52,9 @@ extensive collection of open-sourced Machine Learning models.
 
 ## Math for ML
 
-- Wolfram Alpha offers some insightful demo's in their [demonstrations](https://demonstrations.wolfram.com/topic.html?topic=Linear+Algebra&limit=20) project (broken?).
+- [Article: The role of Mathematics in ML](https://www.geeksforgeeks.org/machine-learning/machine-learning-mathematics/)
 - [Big O cheat sheet](https://www.bigocheatsheet.com/)
+- Wolfram Alpha offers some insightful demo's in their [demonstrations](https://demonstrations.wolfram.com/topic.html?topic=Linear+Algebra&limit=20) project (broken?).
 
 ## Read More
 

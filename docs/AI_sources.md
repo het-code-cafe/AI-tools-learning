@@ -30,6 +30,7 @@ Browse sources by different topics.
 AI has very useful applications in many sectors. The following sectors have their own 
 overviews.
 
+- [Education](AI_education.md)
 - [Finance](AI_finance.md)
 - [Healthcare](AI_healthcare.md)
 

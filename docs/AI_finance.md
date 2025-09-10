@@ -33,3 +33,5 @@ Use the links below to jump to different overviews of sources.
 
 - [AI Sources Overview](AI_sources.md)
 - [AI Use Cases](AI_use_cases.md)
+- [AI in Healthcare](AI_healthcare.md)
+- [AI in Education](AI_education.md)

@@ -13,3 +13,5 @@
 
 - [Sources Overview](AI_sources.md)
 - [AI Ethics & Law](AI_ethics.md)
+- [AI in Education](AI_education.md)
+- [AI in Finance](AI_finance.md)
