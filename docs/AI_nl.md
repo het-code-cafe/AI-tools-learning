@@ -2,7 +2,7 @@
 
 De volgende bronnen zijn geschreven in het Nederlands, of specifiek gerelateerd aan AI-ontwikkelingen in Nederland.
 
-## Ethiek
+## Ethiek & Regulatie
 
 - [AI Community Nederlandse Overheid](https://aienalgoritmes.pleio.nl/)
 - [Algoritmeregister Nederlandse Overheid](https://algoritmes.overheid.nl/nl)

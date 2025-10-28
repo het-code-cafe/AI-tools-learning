@@ -22,6 +22,7 @@ Browse sources by different topics.
 - [Use Cases](AI_use_cases.md)
 - [Machine Learning](./ML_sources.md)
 - [Large Language Models](./LLM_sources.md)
+- [AI in Robotics](AI_robotics.md)
 - [AI in the Future](AI_future.md)
 - [AI for a better Future](AI_better_future.md)
 
