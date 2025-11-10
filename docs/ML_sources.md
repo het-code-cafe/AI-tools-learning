@@ -46,9 +46,14 @@ Unsupervised learning techniques:
 
 - [Practice: Tensorflow Neural Network Playground](https://playground.tensorflow.org/)
 
+### Deep Learning
+
+- [Video: The Moment We Stopped Understanding AI (AlexNet)](https://www.youtube.com/watch?v=UZDiGooFs54)
+
 ### LLM's
 
 - [Read: The Measurement Problem in AI (On AI Evaluation and comparison)](https://aheadofthecurveai.substack.com/p/the-measurement-problem-in-ai-what)
+- [Interactive: LLM Visualization](https://bbycroft.net/llm)
 
 ## Math for ML
 
