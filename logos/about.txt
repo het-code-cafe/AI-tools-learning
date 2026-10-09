@@ -1,0 +1,3 @@
+These logos come from
+https://github.com/BitrootNL/Branding
+and are transferred here through GitHub Actions.
